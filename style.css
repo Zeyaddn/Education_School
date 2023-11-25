@@ -285,7 +285,7 @@ body
       padding: 20px;
       border-radius: 10px;
       z-index: 1;
-      margin-bottom: 120px;
+      margin-bottom: 100px;
   }
 
 
@@ -528,7 +528,7 @@ body
       width: 150px; /* جعل الزرار يمتد عبر العرض الكامل */
       margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
      position: relative;
-     right: 60px;
+     right: 50px;
   }
 }
 
@@ -537,7 +537,7 @@ body
       width: 150px; /* جعل الزرار يمتد عبر العرض الكامل */
       margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
      position: relative;
-     right: 60px;
+     right: 50px;
   }
 }
 @media (max-width: 320px) {
