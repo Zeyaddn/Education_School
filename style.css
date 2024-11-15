@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Poppins:wght@200&display=swap" );
@@ -18,7 +18,8 @@ body
 }
 .nav-text
 {
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -285,7 +286,7 @@ body
       padding: 20px;
       border-radius: 10px;
       z-index: 1;
-      margin-bottom: 100px;
+      margin-bottom: 80px;
   }
 
 
@@ -296,10 +297,10 @@ body
   
   .text-heading {
     
-    font-family: 'Lora', serif;
-    animation: fadeInUp 1s ease forwards; /* Add fade-in animation */
-    margin-top: 20px; /* Add top margin for spacing */
-    text-align: center; /* Center the text */
+    font-family: 'Montserrat', serif;
+    animation: fadeInUp 1s ease forwards; 
+    margin-top: 20px; 
+    text-align: center;
 }
 
 
@@ -366,95 +367,94 @@ body
 
 
 #typedOutput2 {
-  font-size: 3.5rem; /* حجم الخط الافتراضي */
-  line-height: 1.4; /* ارتفاع السطر الافتراضي */
-  max-width: 600px; /* العرض الأقصى للنص الافتراضي */
-  margin: 0 auto; /* توسيع المحتوى داخل النافذة الافتراضي */
+  font-size: 3.5rem; 
+  line-height: 1.4; 
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
-/* استفسار وسائط للأجهزة اللوحية */
-/* استفسار وسائط للأجهزة اللوحية */
+
+
 @media (max-width: 1035px) {
   #typedOutput2{
-    font-size: 3rem; /* تحديد حجم الخط للأجهزة اللوحية */
-    line-height: 1.3; /* ارتفاع السطر للأجهزة اللوحية */
+    font-size: 3rem; 
+    line-height: 1.3; 
   }
 }
 
-/* استفسار وسائط للهواتف المحمولة */
+
 @media (max-width: 990px) {
   #typedOutput2 {
-    font-size: 2.5rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.2; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 2.5rem; 
+    line-height: 1.2; 
+    max-width: 100%; 
   }
 }
 @media (max-width: 590px) {
   #typedOutput2 {
-    font-size: 2rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.2; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 2rem; 
+    line-height: 1.2; 
+    max-width: 100%;
   }
 }
 @media (max-width: 400px) {
   #typedOutput2 {
-    font-size: 1.5rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.2; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 1.5rem; 
+    line-height: 1.2; 
+    max-width: 100%; 
   }
 }
 
 @media (max-width: 300px) {
   #typedOutput2 {
-    font-size: 1rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.3; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 1rem; 
+    line-height: 1.3; 
+    max-width: 100%;
   }
 }
 
 
 #typedOutput1 {
-  font-size: 3.5rem; /* حجم الخط الافتراضي */
-  line-height: 1.4; /* ارتفاع السطر الافتراضي */
-  max-width: 600px; /* العرض الأقصى للنص الافتراضي */
-  margin: 0 auto; /* توسيع المحتوى داخل النافذة الافتراضي */
+  font-size: 3.5rem; 
+  line-height: 1.4; 
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
-/* استفسار وسائط للأجهزة اللوحية */
+
 @media (max-width: 1035px) {
   #typedOutput1{
-    font-size: 3rem; /* تحديد حجم الخط للأجهزة اللوحية */
-    line-height: 1.3; /* ارتفاع السطر للأجهزة اللوحية */
+    font-size: 3rem; 
+    line-height: 1.3; 
   }
 }
 
-/* استفسار وسائط للهواتف المحمولة */
 @media (max-width: 990px) {
   #typedOutput1 {
-    font-size: 2.5rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.2; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 2.5rem; 
+    line-height: 1.2; 
+    max-width: 100%; 
   }
 }
 @media (max-width: 590px) {
   #typedOutput1 {
-    font-size: 2rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.2; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 2rem; 
+    line-height: 1.2;
+    max-width: 100%; 
   }
 }
 @media (max-width: 400px) {
   #typedOutput1 {
-    font-size: 1.5rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.2; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 1.5rem; 
+    line-height: 1.2;
+    max-width: 100%; 
   }
 }
 @media (max-width: 300px) {
   #typedOutput1 {
-    font-size: 1rem; /* تحديد حجم الخط للهواتف المحمولة */
-    line-height: 1.3; /* ارتفاع السطر للهواتف المحمولة */
-    max-width: 100%; /* السماح بالنص بامتداده بشكل كامل على شاشات الهواتف */
+    font-size: 1rem; 
+    line-height:1.3;
+    max-width: 100%; 
   }
 }
 
@@ -473,42 +473,46 @@ body
 
 }
 /* Style for the Explore Courses button */
-/* أنماط الزرار للشاشات الكبيرة والوسطى */
-/* أنماط الزرار للأجهزة الكبيرة والوسطى */
+
+
 #coursesButton, #teachersButton {
   font-family: 'Kdam Thmor Pro', sans-serif;
   animation: slideRight 1s ease forwards;
   letter-spacing: 2px;
-  transition: background-color 0.3s ease; /* تحول سلس عند التحويل */
+  transition: background-color 0.3s ease; 
 }
 
-/* أنماط الزرار للشاشات الصغيرة (التليفونات والأجهزة اللوحية) */
+#coursesButton{
+  margin-right: 0;
+}
+
+
 @media (max-width: 767px) {
   #coursesButton, #teachersButton {
-      width: 50%; /* جعل الزرار يمتد عبر العرض الكامل */
-      margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
+      width: 50%; 
+      margin-bottom: 10px; 
   }
   
 }
 
 @media (max-width: 615px) {
   #coursesButton, #teachersButton {
-      width: 90%; /* جعل الزرار يمتد عبر العرض الكامل */
-      margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
+      width: 90%; 
+      margin-bottom: 10px; 
   }
   
 }
 @media (max-width: 615px) {
   #coursesButton, #teachersButton {
-      width: 90%; /* جعل الزرار يمتد عبر العرض الكامل */
-      margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
+      width: 90%; 
+      margin-bottom: 10px; 
   }
   
 }
 @media (max-width: 380px) {
   #coursesButton, #teachersButton {
-      width: 90%; /* جعل الزرار يمتد عبر العرض الكامل */
-      margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
+      width: 90%; 
+      margin-bottom: 10px; 
      position: relative;
      right: 40px;
   }
@@ -516,8 +520,8 @@ body
 }
 @media (max-width: 329px) {
   #coursesButton, #teachersButton {
-      width: 100%; /* جعل الزرار يمتد عبر العرض الكامل */
-      margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
+      width: 100%;
+      margin-bottom: 10px;
      position: relative;
      right: 60px;
   }
@@ -525,8 +529,8 @@ body
 }
 @media (max-width: 302px) {
   #coursesButton, #teachersButton {
-      width: 150px; /* جعل الزرار يمتد عبر العرض الكامل */
-      margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
+      width: 150px;
+      margin-bottom: 10px; 
      position: relative;
      right: 50px;
   }
@@ -534,42 +538,40 @@ body
 
 @media (max-width: 302px) {
   #coursesButton, #teachersButton {
-      width: 150px; /* جعل الزرار يمتد عبر العرض الكامل */
-      margin-bottom: 10px; /* تعديل التباعد حسب الحاجة */
+      width: 150px; 
+      margin-bottom: 10px; 
      position: relative;
      right: 50px;
   }
 }
-@media (max-width: 400px) {
-  .rating{
-display: none;
-  }
+.highlight-text
+{
+
 }
 
 
-/* أنماط زر Explore Courses عندما يتم التحويل */
 #coursesButton {
-  background-color: #80CD36; /* لون أخضر */
-  color: #fff; /* لون النص أبيض */
+  background-color: #80CD36; 
+  color: #fff;
   border: none;
   border-radius: 5px;
 }
 
 #coursesButton:hover {
-  background-color: #218838; /* لون أخضر داكن عند التحويل */
+  background-color: #218838; 
 }
 
-/* أنماط زر Meet Our Teachers عندما يتم التحويل */
+
 #teachersButton {
-  background-color: transparent; /* خلفية شفافة */
-  color: #28a745; /* لون النص أخضر */
-  border: 2px solid #28a745; /* حدود خضراء */
+  background-color: transparent; 
+  color: #28a745;
+  border: 2px solid #28a745; 
   border-radius: 5px;
 }
 
 #teachersButton:hover {
-  background-color: #f8f9fa; /* خلفية رمادية فاتحة عند التحويل */
-  color: #000; /* لون النص الداكن عند التحويل */
+  background-color: #f8f9fa; 
+  color: #000; 
 }
 
 
@@ -622,16 +624,16 @@ display: none;
 
     .content-box {
         flex-direction: column; 
-        align-items: center; /* Center items horizontally */
-        justify-content: center; /* Center items vertically */
+        align-items: center;
+        justify-content: center; 
         background-color: #3c3d41;
-        margin-bottom: 20px; /* Add margin between content-box elements in mobile view */
-        width: 100%; /* Make each element take up the full width */
+        margin-bottom: 20px; 
+        width: 100%; 
     }
 
     .text-content {
         margin-top: 15px;
-        margin-left: 0; /* Remove left margin in mobile view */
+        margin-left: 0; 
     }
 }
 
@@ -671,7 +673,9 @@ section p {
 }
 
 .highlight-text {
-    color: #80CD36; /* Green color code */
+    color: #80CD36; 
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .carr {
@@ -702,59 +706,6 @@ section p {
     z-index: 1;
   }
   
-  .card-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 99%;
-    height: 47%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 70px;
-    z-index: 2;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    border-radius: 15px;
-    
-  }
-  
-  .card-overlay a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    transform: translateY(-20px);
-    opacity: 0;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-  }
-  
-  .card-overlay i {
-    font-size: 50px;
-    
-  }
-  .card-overlay i:hover
-  {
-    color:#80CD36;
-  }
-  
-  .card:hover .card-overlay {
-    opacity: 1;
-  }
-  
-  .card:hover .card-overlay a {
-    transform: translateY(0);
-    opacity: 1;
-  }
-.squre
-{
-    width: 10px;
-    height: 30px;
-    position: absolute;
-    top: 230px;
-    left: 50px;
-    
-}
 
 @media (max-width: 380px) {
   .squre {
@@ -769,15 +720,12 @@ font-family: 'Kdam Thmor Pro', sans-serif;
       
 }
 
-/* تحسينات لوضع الظلام */
-.dark-mode {
-    background-color: #222; /* لون الخلفية في وضع الظلام */
-    color: #fff; /* لون النص في وضع الظلام */
-}
 
-/* styles.css */
 
-/* تحديد حجم الصورة وتحديد حدودها */
+
+
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -793,7 +741,6 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 display: flex;
-justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
 
@@ -923,39 +870,6 @@ flex-wrap: wrap;
   }
 
 
-  .rating:not(:checked) > input {
-    position: absolute;
-    appearance: none;
-  }
-  
-  .rating:not(:checked) > label {
-    float: right;
-    cursor: pointer;
-    font-size: 30px;
-    color: #666;
-  }
-  
-  .rating:not(:checked) > label:before {
-    content: '★';
-  }
-  
-  .rating > input:checked + label:hover,
-  .rating > input:checked + label:hover ~ label,
-  .rating > input:checked ~ label:hover,
-  .rating > input:checked ~ label:hover ~ label,
-  .rating > label:hover ~ input:checked ~ label {
-    color: #80CD36;
-  }
-  
-  .rating:not(:checked) > label:hover,
-  .rating:not(:checked) > label:hover ~ label {
-    color: #80CD36;
-  }
-  
-  .rating > input:checked ~ label {
-    color: #80CD36;
-  }
-  
   
   
   button {
@@ -1046,6 +960,14 @@ flex-wrap: wrap;
     color: #fff;
    }
 
+  .btn-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
 .img-container2{
   width: 100%;
   height: 70vh;
@@ -1093,17 +1015,17 @@ display: none;
 
 .card-teacher:hover h5
 {
-    color: #80CD36; /* لون أخضر يمكن تغييره حسب الرغبة */
+    color: #80CD36; 
     transition: color 0.5s;
 }
 
 .card-teacher {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* تعديل الألوان والظل حسب الحاجة */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   transition: box-shadow 0.3s;
 }
 
 .card-teacher:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* تعديل الألوان والظل حسب الحاجة */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .card-teacher {
@@ -1131,7 +1053,7 @@ display: none;
 .img-container3 {
   margin-top: 50px;
   width: 100%;
-  min-height: 70vh; /* Changed to min-height */
+  min-height: 70vh; 
   background-image: url(images/bg-form.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1140,7 +1062,7 @@ display: none;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  position: relative; /* Added to make the p position absolute relative to this container */
+  position: relative; 
 }
 
 .img-container3 .img {
